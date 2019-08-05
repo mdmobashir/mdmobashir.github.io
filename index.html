@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB">
+<head>
+	<title>Mobashir Mohammad</title>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+	<meta name="description" content="The Perfect 2 Column Liquid Layout (left menu): No CSS hacks. SEO friendly. iPhone compatible." />
+	<meta name="keywords" content="The Perfect 2 Column Liquid Layout (left menu): No CSS hacks. SEO friendly. iPhone compatible." />
+	<meta name="robots" content="index, follow" />
+	<link rel="shortcut icon" href="nus.gif" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="screen.css" media="screen" />
+    
+    <!--  Slider  -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="sss/sss.min.js"></script>
+    <link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
+    <script>
+        jQuery(function($) {
+        $('.slider').sss();
+        });
+    </script>
+    
+    <!-- Center  -->
+    <style>
+        #inner {
+            margin: 0 auto;
+        }
+    </style>  
+    
+    <!--Facebook-->
+    <script src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.2" async></script>
+<!--
+    <style>
+        .fb-post, .fb-post iframe[style], .fb-post span {
+            width: 100% !important;
+        }
+    </style>
+-->
+    
+</head>
+<body>
+
+<div id="header">
+	<!-- <p><a href="http://matthewjamestaylor.com/blog/perfect-multi-column-liquid-layouts" title="Perfect multi-column liquid layouts - iPhone compatible">&laquo; Back to the CSS article</a> by <a href="http://matthewjamestaylor.com">Matthew James Taylor</a></p> -->
+	<h1>Mobashir Mohammad</h1>
+	<h2>Full Stack Researcher and Developer for the Internet of Things</h2>
+	<ul>
+        <li><a href="index.html#aboutme" class="active">Home</a></li>
+		<li><a href="index.html#research">Research</a></li>
+		<li><a href="index.html#publications">Publications</a></li>
+		<li><a href="index.html#talks">Talks</a></li>
+		<li><a href="index.html#teaching">Teaching</a></li>
+        <li><a href="http://indriya.comp.nus.edu.sg">Indriya</a></li>
+        <li><a href="https://scholar.google.com.sg/citations?user=JHhx9_QAAAAJ&hl=en&oi=ao">GoogleScholar</a></li>
+	</ul>
+<!--	<p id="layoutdims">Measure columns in: <a href="http://matthewjamestaylor.com/blog/ultimate-2-column-left-menu-pixels.htm">Pixel widths</a> | <a href="http://matthewjamestaylor.com/blog/ultimate-2-column-left-menu-ems.htm">Em widths</a> | <strong>Percentage widths</strong></p>-->
+    <p id="layoutdims"><span id="time"></span></p>
+    <script>
+        var today = new Date();
+        document.getElementById('time').innerHTML=today;
+    </script>
+</div>
+<div class="colmask leftmenu">
+	<div class="colleft">
+        
+        <!-- Column 1 start -->
+		<div class="col1">
+            <!-- Column 1 start -->
+            
+            <!-- About Me -->
+			<h2 id='aboutme'>About Me</h2>
+            <p>
+                I'm a Ph.D. candidate at the <a href="http://www.cir.nus.edu.sg/">Communication and Internet Research group</a> of <a href="https://www.comp.nus.edu.sg/~chanmc/">Prof. Chan Mun Choon</a> at the <a href="https://www.comp.nus.edu.sg/">School of Computing</a> of the <a href="http://www.nus.edu.sg/">National University of Singapore</a>. My research lies at the confluence of Internet of Things (IoT) and the Wireless Sensor Networks (WSN). More specifically, I aim at designing reliable and efficient wireless communication protocols tailored for the challenging urban environment facing severe cross-technology interference (CTI). Taking a break from Ph.D., I interned at <a href="http://research.microsoft.com/en-us/labs/india/">Microsoft Research India</a> where I collaborated with <a href="http://research.microsoft.com/en-us/people/ramjee/">Dr. Ramachandran Ramjee</a>, <a href="http://research.microsoft.com/en-us/people/krchinta/">Dr. Krishna Chintalapudi</a> and <a href="http://research.microsoft.com/en-us/people/bhagwan/">Dr. Ranjita Bhagwan</a> of the <a href="http://research.microsoft.com/en-us/groups/mns/">Mobility, Networks and Systems</a> group to build a Smart HVAC system.
+            </p>
+            <p>
+                I completed bachelor's degree in Computer Science and Technology (CST) at the <a href="http://www.iiests.ac.in/">Indian Institute of Engineering Science and Technology, Shibpur</a> where I got introduced to WSN by my undergraduate supervisor <a href="http://www.iiests.ac.in/aboutsipra-das-bit-cstmenuitem">Prof. Sipra DasBit</a>. It was then that I started playing around with Arduino devices communicating over low power ZigBee stack.
+            </p>
+            <p>SoCBytes have featured some fun facts about me and my personal life in their <a href="http://socbytes.blogspot.sg/2015/07/mobashir.html">blog</a>. Thanks to Toh Tien-Yi for maintaining it for SoC members. Kudos!</p>
+            
+            <!-- Research Group-->
+            <h2 id='researchgroup'>Research Group</h2>
+            <p>
+                <img src="Resources/Others/group.jpg" style="width:100%;">
+            </p>
+            
+            <!-- Research -->
+            <h2 id='research'>Research Interest</h2>
+            My research interests are at the confluence of the Internet of Things (IoT) and the Wireless Sensor Networks (WSN). More specifically, I aim at designing reliable and efficient wireless communication protocols tailored for the challenging urban environment facing severe cross-technology interference (CTI). Besides this, I also work on other research topics under the broad umbrella of IoT. My projects include:
+            
+            
+<!--
+            <p>
+                <div id="inner" class="slider" style="width:59%">
+                    <img src="Resources/ResearchArea/internetofthings.png" />
+                    <img src="Resources/ResearchArea/smartphone.png" />
+                </div>
+            </p>  
+-->
+            <ul>
+                <li>Towards scalable synchronous transmissions in low-power wireless networks</li>
+                <li>Tackling cross-technology interference in urban environment</li>
+                <li>Exploring alternate ways of synchronizing IoT devices</li>
+                <li>Making HVAC systems smart</li>
+            </ul>
+            
+            <!-- Publications -->
+            <h2 id='publications'>Publications</h2>
+            <p>
+                <ul>
+                    <li><b>2016</b></li>
+                        <ul>
+                            <li><b>Mobashir Mohammad</b>, Manjunath Doddavenkatappa and Mun Choon Chan. "Improving Performance of Synchronous Transmission Based Protocol using Multi-Channel Capture Effect." ACM Transactions on Sensor Networks, 10(2), November 2016 (TOSN). ACM, 2016. [<a href="Resources/Papers/2017tosn.pdf">PDF</a>] - Full Paper
+                            </li>
+                            <li>Jan Beutel, Carlo Alberto Boano, Mun Choon Chan, Simon Duquennoy, Omprakash Gnawali, Olaf Landsiedel, <b>Mobashir Mohammad</b>, Luca Mottola, Lothar Thiele, Xavier Vilajosana, Thiemo Voigt, Thomas Watteyne and Marco Zimmerling. "Poster Abstract: A Benchmark for Low-power Wireless Networking." Proceedings of the 14th ACM Conference on Embedded Networked Sensor Systems (SenSys). ACM, 2016. [<a href="Resources/Papers/2016sensys.pdf">PDF</a>] - Poster
+                            </li>
+                            <li><b>Mobashir Mohammad</b>, Xiangfa Guo and Mun Choon Chan. "Oppcast: Exploiting Spatial and Channel Diversity for Robust Data Collection in Urban Environments." Proceedings of the 15th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN). IEEE, 2016. [<a href="Resources/Slides/2016ipsn.pptx">PPT</a>, <a href="Resources/Papers/2016ipsn.pdf">PDF</a>] - Full Paper
+                            </li>
+                            <li><b>Mobashir Mohammad</b>, Xiangfa Guo and Mun Choon Chan. "Demo Abstract: Enabling Robust Data Collection in Unplanned Cross-Technology Interference of Urban Environments." Proceedings of the 15th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN). IEEE, 2016. <font color="red">(Best Demo Award)</font> [<a href="Resources/Demo/2016ipsndemo.pdf">PDF</a>] - Demo
+                            </li>
+                            <li>Xiangfa Guo, <b>Mobashir Mohammad</b>, Sudipta Saha, Mun Choon Chan, Seth Gilbert and Derek Leong. "PSync: Visible Light-Based Time Synchronization for Internet of Things (IoT)." Proceedings of the 35th IEEE International Conference on Computer Communications (INFOCOM). IEEE, 2016. [<a href="Resources/Papers/2016infocom2016.pdf">PDF</a>] - Full Paper
+                            </li>
+                            <li><b>Mobashir Mohammad</b>, Xiangfa Guo, Mun Choon Chan. "Demo Abstract: Robust Data Collection Despite Cross-Technology Interference in Urban Environments" Proceedings of the 17th International Conference on Distributed Computing and Networking (ICDCN). ACM, 2016. [<a href="Resources/Demo/2016icdcndemo.pdf">PDF</a>] - Demo
+                            </li>
+                        </ul>
+                    <li><b>2015</b></li>
+                        <ul>
+                            <li><b>Mobashir Mohammad</b>. "Tackling Self Interference, Cross-Technology Interference and Channel Fading in Wireless Sensor Networks." Proceedings of the 13th ACM Conference on Embedded Networked Sensor Systems (SenSys). ACM, 2015. [<a href="Resources/Slides/2015sensysdc.pptx">PPT</a>, <a href="Resources/Papers/2015sensysdc.pdf">PDF</a>] - Doctorial Colloquium
+                            </li>
+                        </ul>                        
+                    </li>
+                    
+                    <li><b>2014</b></li>
+                        <ul>
+                            <li>Rohan Banerjee, <b>Mobashir Mohammad</b>, and Sipra Das Bit. "Partial DCT-based energy efficient compression algorithm for wireless multimedia sensor network." Proceedings of the 3rd International Conference on Electronics, Computing and Communication Technologies (CONECCT). IEEE, 2014. [<a href="Resources/Papers/2014conecct.pdf">PDF</a>] - Full Paper
+                            </li>
+                        </ul>                        
+                    </li>
+                    <li><b>2011</b></li>
+                        <ul>
+                            <li>Amrita Ghosal, <b>Mobashir Mohammad</b>, and Sipra Das Bit. "A jamming defending data-forwarding scheme for delay sensitive applications in WSN." Proceedings of the 2nd International Conference on Wireless Communication, Vehicular Technology, Information Theory and Aerospace & Electronic Systems Technology (Wireless VITAE). IEEE, 2011. <font color="red">(Best Paper Award)</font> [<a href="Resources/Papers/2011vitae.pdf">PDF</a>] - Full Paper
+                            </li>
+                        </ul>                        
+                    </li>
+                </ul>
+            </p>
+    
+            <!-- Talks -->
+            <h2 id='talks'>Public Talks and Presentations</h2>
+            <p>
+                <ul>
+                    <li><b>2015</b></li>
+                        <ul>
+                            <li>"Tackling Self Interference, Cross-Technology Interference and Channel Fading in Wireless Sensor Networks." Proceedings of the 13th ACM Conference on Embedded Networked Sensor Systems (SenSys). ACM, 2015. [<a href="Resources/Slides/2015sensysdc.pptx">PPT</a>, <a href="Resources/Papers/2015sensysdc.pdf">PDF</a>] - Doctorial Colloquium
+                            </li>
+                        </ul>                        
+                    </li>
+                </ul>
+            </p>
+
+            <!-- Teaching -->
+            <h2 id='teaching'>Teaching</h2>
+            <p>
+                At <a href="https://www.comp.nus.edu.sg/">School of Computing</a>, <a href="http://www.nus.edu.sg/">National University of Singapore</a>, I served as teaching assistant for the following lectures:<br>
+                <ul>
+				    <li><b>Introduction to Computer Networking (CS2105)</b></li>
+                        <ul>
+                            <li>AY 2014/15 (Semester 1)</li>
+                            <li>AY 2014/15 (Semester 2) [<a href="Resources/Others/cs2105_1415s2_feedback.pdf">STUDENT FEEDBACK</a>]</li>
+                            <li>AY 2015/16 (Semester 2) [<a href="Resources/Others/cs2105_1516s2_feedback.pdf">STUDENT FEEDBACK</a>]</li>
+                        </ul>
+                    <li><b>Wireless Computing and Sensor Networks (CS4222)</b></li>
+                        <ul>
+                            <li>AY 2015/16 (Semester 2)</li>
+                            <li>AY 2016/17 (Semester 2)</li>
+                        </ul>
+			    </ul>
+            </p>
+
+            <!-- Social -->
+<!--
+            <div>
+                <div class="fb-post"
+                    data-href="https://www.facebook.com/mdmobashir/posts/10153208209701828"
+                    data-width="25">
+                </div>
+            </div>
+-->
+            <h2 id='teaching'>Social</h2>
+                <!-- INFOCOM 2016 -->    
+<div id="fb-root" style="width:50%;"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-post" data-href="https://www.facebook.com/mdmobashir/posts/10153208209701828" data-width="350"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/mdmobashir/posts/10153208209701828"><p>Amidst the recent buzz on LiFi technology, our paper on using ambient light to synchronize various devices got accepted at INFOCOM 2016...</p>Posted by <a href="#" role="button">Mobashir Mohammad</a> on&nbsp;<a href="https://www.facebook.com/mdmobashir/posts/10153208209701828">Monday, November 30, 2015</a></blockquote></div></div><div class="fb-post" data-href="https://www.facebook.com/mdmobashir/posts/10153350159101828" data-width="350"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/mdmobashir/posts/10153350159101828"><p>Towards enabling reliable sensor network deployments in urban environments, our work Oppcast got accepted at IPSN 2016...#ipsn16</p>Posted by <a href="#" role="button">Mobashir Mohammad</a> on&nbsp;<a href="https://www.facebook.com/mdmobashir/posts/10153350159101828">Tuesday, February 16, 2016</a></blockquote></div></div><div class="fb-post" data-href="https://www.facebook.com/mdmobashir/posts/10154448891041828" data-width="350"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/mdmobashir/posts/10154448891041828"><p>Working on to improve the performance of synchronous transmission based protocols using multi-channel capture effect, our research Syncast got published in TOSN 2017...#tosn17</p>Posted by <a href="#" role="button">Mobashir Mohammad</a> on&nbsp;<a href="https://www.facebook.com/mdmobashir/posts/10154448891041828">Tuesday, April 27, 2017</a></blockquote></div></div>
+</div>
+
+        <!-- Column 2 start -->
+		<div class="col2">
+			<div id="ads">
+				<img src="Resources/Others/profile.jpg" style="width:100%;" />
+                &copy; <a href="http://www.comp.nus.edu.sg/~nimantha/">Nimantha Baranasuriya</a>
+			</div>
+			<h2>Latest</h2>
+            <p>
+                <b>Apr 2017</b>: Our paper Syncast got accepted at TOSN 2016<br>
+                <b>Nov 2016</b>: Passed Thesis Proposal<br> 
+                <b>Aug 2016</b>: Awarded NUS Research Achievement Award<br>
+                <b>Apr 2016</b>: Oppcast received best demo award at IPSN 2016<br> 
+                <b>Feb 2016</b>: Demo accepted at IPSN 2016<br>
+                <b>Jan 2016</b>: Our Oppcast paper got accepted at IPSN 2016<br>
+                <b>Nov 2015</b>: Our PSync paper got accepted at INFOCOM 2016<br>
+                <b>Nov 2015</b>: Demo accepted at ICDCN 2016<br>
+                <b>Nov 2015</b>: Presented at SenSys 2015 Doctoral Colloquium<br>
+                <b>Oct 2015</b>: 2<sup>nd</sup> at NUS Three Minute Thesis Challenge<br>
+                <b>May 2015</b>: Research Intern at Microsoft Research India<br>                
+            </p>
+            <h2>Resume</h2>
+            <a href="Resources/Others/resume.pdf">Download</a> (Last Updated: 30 Apr 2017)
+            <h2>Contact</h2>
+            <p>
+                <img src="Resources/Others/visitingcard.png" style="width:100%;">
+            </p>
+            <h2>Website Statistics</h2>
+            <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?u=thNZ&d=sbXnaeEnNz6H52YYwl-Qa4JH2OAGOD-GXZQiIzRwHfU"></script>
+			<!-- Column 2 end -->
+		</div>
+        
+	</div>
+</div>
+<div id="footer">
+	<p>This page uses the <a href="http://matthewjamestaylor.com/blog/perfect-2-column-left-menu.htm">Perfect 'Left Menu' 2 Column Liquid Layout</a> by <a href="http://matthewjamestaylor.com">Matthew James Taylor</a>. View more <a href="http://matthewjamestaylor.com/blog/-website-layouts">website layouts</a> and <a href="http://matthewjamestaylor.com/blog/-web-design">web design articles</a>.</p>
+</div>
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70618996-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>
